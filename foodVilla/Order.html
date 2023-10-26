@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>FoodVilla/Order.com</title>    
+    </head>
+
+    <body>
+        <section class="menu">
+            <div class="nav">
+                <div class="logo" ><h1 style="font-size: large;">Food<b style="color: tomato; font-size: xx-large;">V</b>illa</h1></div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Explore.html">Food</a></li>
+                    <li><a class="active">Order</a></li>
+                    <li><a href="Support.html">Support</a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="grid">
+            <div class="content">
+                <div class="content-left">
+                    <div class="info">
+                        <h2>Place Your Order Now</h2>
+                            <p>Food villa is available to carry out 
+                                your any cateering service
+                            </p>
+                    </div>
+                </div>
+                <div class="content-right-img">
+                    <img src="C:\Users\USER\Downloads\animated.png" alt="Chef image">
+                </div>
+            </div>
+        </section>
+
+
+        <section class="bokingForm">
+            <div class="form-container">
+                <h1 class="form-head">Booking</h1>
+                <form action="Respose.html" enctype="multipart/form-data" method="POST">
+                    <fieldset>
+                            <ol>
+                                <li><label for="firstlast">Full Name:</label>
+                                    <input type="text" name="fullname" id="firstlast">
+                                </li>
+                                <br>
+                                <br>
+                                <li><label for="email">Email:</label>
+                                    <input type="text" name="email" id="email">
+                                </li>
+                            </ol>
+
+                            <br>
+                            <br>
+                        <p><label>Delivery Information<br>
+                            <textarea name="instructions" rows="4" cols="60" maxlength="400" placeholder="No more than 400 words."></textarea>
+                            <br>
+                            <br>
+                            <p>Number of Attendance</p>
+                            <ul>
+                                <li><input type="radio" name="number" value="20-50"> 50 to 100</li> 
+                                <li><input type="radio" name="number" value="50-100"> 100 to 200</li>
+                                <li><input type="radio" name="number" value="100-200"> 200 to 300</li>
+                                <li><input type="radio" name="number" value="200-500"> 300 to 500</li>
+                                <li><input type="radio" name="number" value="200-500"> 500 and above</li>
+                            </ul>
+                
+                            <br>
+                            <br>
+                            <p>Select Food</p>
+                            <ul>
+                                <li><input type="checkbox" name="food" value="jellofRice"> Jellof Rice </li> 
+                                <li><input type="checkbox" name="food" value="friedRice"> Fried Rice </li>
+                                <li><input type="checkbox" name="food" value="ofadaRice"> Ofada Rice </li>
+                                <li><input type="checkbox" name="food" value="moimoi"> MoiMoi </li>
+                                <li><input type="checkbox" name="food" value="salad"> Salad </li>
+                            </ul>
+                            <br>
+                            <br>
+                            <p>Select Food</p>
+                            <ul>
+                                <li><input type="checkbox" name="protein" value="chicken">Chicken</li> 
+                                <li><input type="checkbox" name="protein" value="turkey">Turkey</li>
+                                <li><input type="checkbox" name="protein" value="fish"> Fish</li>
+                                <li><input type="checkbox" name="protein" value="beef"> Beef</li>
+                                <li><input type="checkbox" name="protein" value="kpomo">Kpomo</li>
+                            </ul>
+                            <br>
+                            <br>
+                            <p>Please select your payment option:
+                                <select name="Payment">
+                                    <option>Bank Transfer</option>
+                                    <option>Bitcoin</option>
+                                    <option>Cash</option>
+                                </select>
+                            </p><br>
+                            <br>
+
+                            <p>Select delivery date
+                                <input type="date" name="name" value="datetime-local">
+                                <input type="time" name="name" value="03:57:00"></p>
+                                <br>
+                                <br>
+                            <p><a href="Respose.html"><input type="submit" value="Place Order"></a>
+                              <input type="reset" value="Start over">
+                            </p>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+
+        <section class="sideeffect">
+            <div class="contents">
+                <div class="foot">
+                    <p>copyright @foodVilla.org</p>
+                </div>
+            </div>
+        </section>
+
+    </body>
+</html>
